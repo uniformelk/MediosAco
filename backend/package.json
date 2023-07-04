@@ -1,0 +1,22 @@
+{
+  "name": "medios-optimizacion",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "optimizacion para proceso de medios",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Cristian Orjuela",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "promise-mysql": "^5.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
